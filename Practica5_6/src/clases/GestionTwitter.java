@@ -53,7 +53,7 @@ public class GestionTwitter {
 
 
 	public static void main(String[] args) {
-		String fileName = "data2.csv";
+		String fileName = "dataReducida.csv";
 		try {
 			CSV.processCSV( new File( fileName ) );
 		} catch (IOException e) {
